@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ZOOM-Video Conferencing & Online Meetings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+        
+        
+        @media only screen and (max-width:400px)
+            {
+                .BODY
+                {
+                    flex-flow: row-reverse;
+                }
+            }
+            
+             @media only screen and (min-width:401px)
+            {
+                .BODY
+                {
+                    flex-flow:wrap-reverse ;
+                }
+            }
+            
+            
+             @media only screen and (min-width:750px)
+            {
+                .BODY
+                {
+                    flex-flow:wrap-reverse ;
+                }
+            }
+        navbar1 ul li a
+        { 
+            margin-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 6px;
+            padding-right: 10px;
+            color: antiquewhite;
+            text-decoration: none;
+        }
+        
+        navbar1 ul li a:hover
+        {
+            background-color: darkslategrey;
+            color: aqua;
+            text-decoration: none;
+        }
+        
+        navbar1 ul
+        {
+            background-color: darkslategrey;
+            margin-top: 0;
+            height: 10%;
+            width: 100%;
+            margin-bottom: 0px;
+        }
+        navbar2 ul li a
+        {
+            padding-bottom: 40px;
+            padding-right: 20px;
+            padding-left: 20px;
+            justify-content: space-between;
+            margin-top: 20px;
+            text-decoration: none;
+            color: black;
+        }
+        
+        navbar2 ul li a:hover
+        {
+            color: blue;
+            text-decoration: none;
+        }
+        
+         .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+      
+   navbar3 p
+        {
+            height: 75px;
+            padding-left: 400px;
+            padding-top: 20px;
+            background-color: gray;
+            color: antiquewhite;
+        }
+        
+        .foot li
+        {
+            font-size: 12px;
+            color: antiquewhite;
+        }
+        
+    </style>
+</head>
+
+<body>
+   
+   <!--NAVBAR1 STARTS-->
+    <navbar1 style="padding-top: 0;width: 100%;">
+       <ul style="display: flex; list-style-type: none;margin-top:0;width: 100%;height: 10%;">
+         <li style="margin-left: 0"> <a href="" style="margin-left: 1000px">DEMO</a> </li>
+         <li> <a href="">1.888.799.9666</a> </li>
+         <li>
+         <div class="dropdown">
+             <button type="button"  data-toggle="dropdown" style="margin: 0px;background-color: darkslategrey"> <a href="">RESOURCES</a> </button>
+              <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Download Zoom Client</a>
+              <a class="dropdown-item" href="#"> Video Tutorials</a>
+              <a class="dropdown-item" href="#">Live Training</a>
+              <a class="dropdown-item" href="#">Zoom Blog</a>
+              <a class="dropdown-item" href="#"> FAQ</a>
+              <a class="dropdown-item" href="#">Privacy & Security</a>
+              <a class="dropdown-item" href="#"> Webinars & Events</a>
+              <a class="dropdown-item" href="#">Security Resources</a>
+             </div>
+         </div>
+         </li>
+         <li> <a href="">SUPPORT</a> </li>
+         </ul>
+     </navbar1>
+      <!--NAVBAR1 ENDS-->
+      
+      <!--NAVBAR2 STARTS-->
+      <navbar2 >
+         <ul style="border: 1px solid grey;height:30%px;margin-top: 0px;width: 100%; display: flex;list-style-type: none;padding-top: 20px;">
+           <li> <a href=""> <img src="zoom.jpg" alt="" style="height: 40px;width: 100px;margin-left: 40px;padding: 0px;margin: 0px;" ></a> </li>
+           <li> <a href="" style="margin-top: 10px;"> SOLUTIONS</a> </li>
+           <li> <a href=""> PLANS & PRICING</a> </li>
+           <li> <a href=""> CONTACT SALES</a> </li>
+           <li> <a href="" style="margin-left: 250px;"> JOIN A MEETING</a> </li>
+           <li> <a href=""> HOST A MEETING</a> </li>
+           <li> <a href=""> SIGN IN</a> </li>
+           
+           <li> <a href="" style="background-color: red;color: white;padding-top: 18px;padding-bottom: 20px;"> SIGN UP</a>
+           
+            </li>
+            </ul>
+    </navbar2>
+     <!--NAVBAR2 ENDS-->
+     
+     
+     <!--CAROUSEL STARTS-->
+     <div id="demo" class="carousel slide" data-ride="carousel" style="margin-top: 0px;">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner" >
+    <div class="carousel-item active">
+      <img src="carousel1.jpg" alt="computer" style="width: 60%; height: 500px; margin-left: 300px;">
+      <div class="carousel-caption" >
+    <h2 style="color: darkslategray;"> TAKING YOUR PHYSICAL EVENT VIRTUAL?</h2>
+  </div>
+    </div>
+    
+    
+    <div class="carousel-item">
+      <img src="carousel2.jpg" alt="computer"  style="width: 60%;height: 500px; margin-left: 300px;">
+       <div class="carousel-caption" style="color: black;">
+    <h2 style="color: white;"> EDUCATING OVER ZOOM</h2>
+  </div>
+    </div>
+    
+    
+    <div class="carousel-item">
+      <img src="carousel3.jpg" alt="computer"  style="width: 60%;height: 500px; margin-left: 300px;">
+       <div class="carousel-caption" style="color: black;">
+    <h2 style="color: black;"> COMMITTED TO SAFETY AND PRIVACY OF ALL ZOOM MEMBERS</h2>
+  </div>
+    </div>
+    
+    
+    <div class="carousel-item">
+      <img src="carousel4.jpg" alt="computer"  style="width: 60%;height: 500px;margin-left: 300px;">
+       <div class="carousel-caption" style="color: black;">
+    <h2 style="color:darkblue;">IN THIS TOGETHER.KEEPING YOU CONNECTED SECURELY</h2>
+  </div>
+    </div>
+    
+    
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!--CAROUSEL ENDS-->
+    
+    <!--NAVBAR3 STARTS-->
+    <navbar3>
+        <p>Learning made Easy.Our ZOOM experts offer sessions daily on all things ZOOM.
+        <a href="" style="margin-left: 300px;color: white;">REGISTER NOW</a></p>
+    </navbar3>
+    <!--NAVBAR3 ENDS-->
+    
+    <!--FEATURES START-->
+    <features>
+       <h2 style="margin-left: 450px; margin-top: 60px;">One Consistent Enterprise Experience</h2>
+       <ul style="display: flex;list-style-type: none;width: 100%;height: 80%;">
+       
+        <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;margin-left: 0px;" >
+      <img class="card-img-top" src="meetings.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title" style="padding-left: 70px; font-size: 20px;">MEETINGS</h4>
+      <p class="card-text"  style="padding-left: 40px;">Online Meetings,Training & Technical Support</p>
+      <a href="#" class="btn btn-primary" style="margin-left: 65px;" >LEARN MORE</a>
+      </div>
+         </div>
+       </li>
+       
+        <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="webinar.jpg" alt="Card image" style="width:100%;height: 150px;">
+      <div class="card-body">
+        <h4 class="card-title" style="padding-left: 30px;font-size: 20px;">VIDEO WEBINARS</h4>
+      <p class="card-text"  style="padding-left: 40px;">Marketing Events & Town Hall Meetings</p>
+      <a href="#" class="btn btn-primary" style="margin-left: 65px;" >LEARN MORE</a>
+      </div>
+         </div>
+       </li>
+       
+       <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="conference.png" alt="Card image" style="width:100%;height: 150px;">
+      <div class="card-body">
+        <h4 class="card-title" style="padding-left: 10px;font-size: 20px;">CONFERENCE ROOMS</h4>
+      <p class="card-text"  style="padding-left: 40px;">Build Collaboration-Enabled rooms</p>
+      <a href="#" class="btn btn-primary" style="margin-left: 65px;" >LEARN MORE</a>
+      </div>
+         </div>
+       </li>
+       
+       <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="phone.jpg" alt="Card image" style="width:100%;height: 150px;">
+      <div class="card-body">
+        <h4 class="card-title" style="padding-left: 10px;font-size: 20px;">PHONE SYSTEM</h4>
+      <p class="card-text"  style="padding-left: 40px;">The Next Generation Phone System</p>
+      <a href="#" class="btn btn-primary" style="margin-left: 65px;" >LEARN MORE</a>
+      </div>
+         </div>
+       </li>
+       
+        <li>
+         <div class="card" style="width:270px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="chat.png" alt="Card image" style="width:100%;height: 150px;">
+      <div class="card-body">
+        <h4 class="card-title" style="padding-left: 80px;font-size: 20px;">CHAT</h4>
+      <p class="card-text"  style="padding-left: 40px;">Cross platform messaging & File sharing</p>
+      <a href="#" class="btn btn-primary" style="margin-left: 65px;" >LEARN MORE</a>
+      </div>
+         </div>
+       </li>
+       
+    </ul>
+    </features>
+    <!--FEATURES END-->
+    
+    <!--RANK STARTS-->
+    <rank>
+       <h4 style="margin-left: 500px; margin-top: 100px;">ZOOM is ranked #1 in Customer Reviews</h4>
+        <ul style="height: 300px;margin-top:0px;display: flex;list-style-type: none">
+            
+            <li> <img src="gartner.jpg" alt="" style="padding-left: 0px;margin-top: 50px; margin-left: 100px;" ><p style="margin-left: 200px;">⭐⭐⭐⭐ <br>
+            4 stars out of 5</p></li>
+            
+            <li> <img src="trust.jpg" alt="" style="padding-left: 0px;margin-top: 45px; margin-left: 150px;height: 200px;width: 250px;" ><p style="margin-left: 230px;">⭐⭐⭐⭐<br>
+            4.5 stars out of 5</p></li>
+            
+             <li> <img src="ground.jpg" alt="" style="padding-left: 0px;margin-top: 45px; margin-left: 200px;height: 200px;width: 300px;" ><p style="margin-left: 290px;">⭐⭐⭐⭐⭐<br>
+            5 stars out of 5</p></li>
+            
+        </ul>
+    </rank>
+    <!--RANK ENDS-->
+    
+    <!--WHY STARTS-->
+    <why>
+       <h2 style="margin-left: 600px; margin-top: 60px;">WHY ZOOM?</h2>
+       <ul style="display: flex;list-style-type: none;">
+       
+        <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;margin-left: 0px;" >
+      <img class="card-img-top" src="globe.jpg" alt="Card image" style="width:80%;height: 150px;padding-left: 40px;">
+      <div class="card-body">
+      <p class="card-text"  style="padding-left: 40px;">One Consistent enterprise experience for all use cases</p>
+      
+      </div>
+         </div>
+       </li>
+       
+        <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="verified.png" alt="Card image" style="width:80%;height: 150px;padding-left: 40px;">
+      <div class="card-body">
+      <p class="card-text"  style="padding-left: 40px;">Engineered & Optimised to work reliably</p>
+      
+      </div>
+         </div>
+       </li>
+       
+       <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="progress.png" alt="Card image" style="width:80%;height: 150px;padding-left: 40px;">
+      <div class="card-body">
+      <p class="card-text"  style="padding-left: 40px;">Upto 1,000 video participants & 10,000 viewers</p>
+
+      </div>
+         </div>
+       </li>
+       
+       <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="thumbs%20up.jpg" alt="Card image" style="width:80%;height: 150px;padding-left: 40px;">
+      <div class="card-body">
+      <p class="card-text"  style="padding-left: 40px;">Easy to Use ,Buy and Scale</p>
+    
+      </div>
+         </div>
+       </li>
+       
+        <li>
+         <div class="card" style="width:270px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="dollar.png" alt="Card image" style="width:80%;height: 150px;padding-left: 40px;">
+      <div class="card-body">
+      <p class="card-text"  style="padding-left: 40px;">Most Affordable straightforward pricing</p>
+     
+      </div>
+         </div>
+       </li>
+        </ul>
+    </why>
+    <!--WHY ENDS-->
+   
+ <!--CAROUSEL2 STARTS-->
+ <carousel2>
+     <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner" style="margin-top: 100px;" >
+    <div class="carousel-item active">
+      <iframe  src="https://www.youtube.com/embed/jbPpdyn16sY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%;height: 600px;"></iframe>
+    </div>
+    
+    
+    <div class="carousel-item">
+     <iframe  src="https://www.youtube.com/embed/ygZ96J_z4AY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%;height: 600px;"></iframe>
+    </div>
+    
+    
+    <div class="carousel-item">
+     <iframe  src="https://www.youtube.com/embed/VkK5WEf6xgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%;height: 600px;"></iframe>
+    </div>
+    
+    
+    <div class="carousel-item">
+     <iframe  src="https://www.youtube.com/embed/8gziObAooxs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%;height: 600px;"></iframe>
+    </div>
+    
+    
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+     
+ </carousel2>
+  <!--CAROUSEL2 ENDS-->
+  
+ <!--NAVBAR4 STARTS-->
+ <navbar4>
+     <ul style="display: flex;list-style-type: none;border: 2px solid white; margin-top: 50px; height: 300px;">
+        
+        <li> <img src="doug.jpg" alt="" style="border: 2px solid black;width: 200px;height: 200px;margin-left: 50px;"> <p style="margin-left: 80px; margin-top: 10px;"> <b>DOUG GOETZ</b> <br>20TH FOX CENTURY</p></li>
+        
+         <li> <img src="jelena.jpg" alt="" style="border: 2px solid black;width: 200px;height: 200px;margin-left: 70px;"> <p style="margin-left: 105px; margin-top: 10px;"> <b>JELENA JOFFE</b><br>AB in BEV</p></li>
+         
+          <li> <img src="shobhana.jpg" alt="" style="border: 2px solid black;width: 200px;height: 200px;margin-left: 70px;"> <p style="margin-left: 90px; margin-top: 10px;"> <b>SHOBHANA AHLUWALIA</b><br>UBER</p></li>
+          
+           <li> <img src="rujul.jpg" alt="" style="border: 2px solid black;width: 200px;height: 200px;margin-left: 70px;"> <p style="margin-left: 105px; margin-top: 10px;"> <b>RUJUL PATHAK</b><br>ZENDESK</p></li>
+           
+            <li> <img src="peter.jpg" alt="" style="border: 2px solid black;width: 200px;height: 200px;margin-left: 70px;"> <p style="margin-left: 100px; margin-top: 10px;"> <b>PETER GASSNER</b><br>VEEVA</p></li>
+         
+     </ul>
+ </navbar4>
+ <!--NAVBAR4 ENDS-->
+  
+  <!--COMPANY STARTS-->
+  <company >
+     <h2 style="margin-left: 550px; margin-top: 60px;color:blue;">Our Customers Love Us</h2>
+      
+       <!--FIRST LIST STARTS-->
+       <ul style="display: flex;list-style-type: none;">
+       
+        <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;margin-left: 0px;" >
+      <img class="card-img-top" src="sophos.jpg" alt="Card image" style="width:100%;height: 150px;">
+         </div>
+       </li>
+       
+        <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="godaddy.png" alt="Card image" style="width:100%;height: 150px;">
+         </div>
+       </li>
+       
+       <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="slack.png" alt="Card image" style="width:100%;height: 150px;">
+         </div>
+       </li>
+       
+       <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="rakuten.jpg" alt="Card image" style="width:100%;height: 150px;">
+         </div>
+       </li>
+       
+        <li>
+         <div class="card" style="width:270px;border: 2px solid white;margin-top: 70px;" >
+      <img class="card-img-top" src="arista.png" alt="Card image" style="width:100%;height: 150px;">
+     
+         </div>
+       </li>
+       
+    </ul>
+    <!--FIRST LIST ENDS-->
+    
+    <!--SECOND LIST STARTS-->
+     <ul style="display: flex;list-style-type: none;">
+       
+        <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 0px;margin-left: 0px;" >
+      <img class="card-img-top" src="ticket.png" alt="Card image" style="width:90%;height: 150px;">
+         </div>
+       </li>
+       
+        <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 0px;" >
+      <img class="card-img-top" src="okta.png" alt="Card image" style="width:90%;height: 150px;">
+         </div>
+       </li>
+       
+       <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 0px;" >
+      <img class="card-img-top" src="nasdaq.png" alt="Card image" style="width:90%;height: 150px;">
+         </div>
+       </li>
+       
+       <li>
+         <div class="card" style="width:300px;border: 2px solid white;margin-top: 0px;" >
+      <img class="card-img-top" src="box.png" alt="Card image" style="width:90%;height: 150px;">
+         </div>
+       </li>
+       
+        <li>
+         <div class="card" style="width:270px;border: 2px solid white;margin-top: 0px;" >
+      <img class="card-img-top" src="autodesk.png" alt="Card image" style="width:90%;height: 150px;">
+     
+         </div>
+       </li>
+       
+    </ul>
+    <!--SECOND LIST ENDS-->
+    
+    <!--THIRD LIST STARTS-->
+    <ul style="display: flex;list-style-type: none;">
+    
+    <li>
+     <p  style="border: 2px solid lightgrey;margin-left:400px;margin-top: 100px;margin-right: 200px;height: 50px;padding:10px;"> <a href="" style="color: black">REQUEST A DEMO</a></p>
+     </li>
+     
+      <li>
+          <p style="margin-top: 100px;padding: 10px;background-color: darkorange;"> <a href="" style="color: white;">BUY NOW</a></p>
+      </li>
+      </ul>
+      <!--THIRD LIST ENDS-->
+  </company>
+  <!--COMPANY ENDS-->
+  
+  <!--FOOTER STARTS-->
+  <footer>
+    <!--LIST1 STARTS-->
+     <ul style="height: 350px;margin-top: 100px;display: flex;list-style-type: none;background-color: darkslategray;margin-bottom: 0px;">
+        
+        <li style="margin-left: 200px;margin-top: 50px;">
+           
+            <ul style="list-style-type: none;" class="foot">
+                <li>ABOUT</li>
+                <li style="margin-top: 10px;">Zoom Blog</li>
+                <li>Customers</li>
+                <li>Our Team</li>
+                <li>Why Zoom</li>
+                <li>Features</li>
+                <li>Careers</li>
+                <li>Integration</li>
+                <li>Partners</li>
+                <li>Investors</li>
+                <li>Press</li>
+                <li>Media Kit</li>
+                <li>How To Videos</li>
+                <li>Brand Guidelines</li>
+            </ul>
+            
+        </li>
+        
+        <li style="margin-left: 100px;margin-top: 50px;">
+            
+             <ul style="list-style-type: none;" class="foot">
+                <li>DOWNLOAD</li>
+                <li style="margin-top: 10px;">Meetings Client</li>
+                <li>Zoom Rooms Client</li>
+                <li>Browser Extensions</li>
+                <li>Outlook Plug-In</li>
+                <li>Lync Plug-In</li>
+                <li>iPhone/iPad App</li>
+                <li>Android App</li>
+            </ul>
+        </li>
+        
+        <li style="margin-left: 100px;margin-top: 50px;">
+             <ul style="list-style-type: none;" class="foot">
+                <li>SALES</li>
+                <li style="margin-top: 10px;">1.888.799</li>
+                <li>Contact Sales</li>
+                <li>Plans & Pricing</li>
+                <li>Demo</li>
+                <li>Webinars & Events</li>
+            </ul>
+        </li>
+        
+        <li style="margin-left: 100px;margin-top: 50px;">
+             <ul style="list-style-type: none;" class="foot">
+                <li>SUPPORT</li>
+                <li style="margin-top: 10px;">Test Zoom</li>
+                <li>Account</li>
+                <li>Support Centre</li>
+                <li>Live Training</li>
+                <li>Feedback</li>
+                <li>Contact Us</li>
+                <li>Accessibility</li>
+                <li>Pricing & Security</li>
+            </ul>
+        </li>
+        
+         <li style="margin-left: 100px;margin-top: 50px;">
+             <ul style="list-style-type: none;" class="foot">
+        <li>
+         <div class="dropdown">
+             <button type="button"  data-toggle="dropdown" style="margin: 0px;background-color: darkslategrey;"> <a href="" style="color: antiquewhite;">LANGUAGE</a> </button>
+              <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">English</a>
+              <a class="dropdown-item" href="#"> Espanol</a>
+              <a class="dropdown-item" href="#">Dutch</a>
+              <a class="dropdown-item" href="#">Japanese</a>
+              <a class="dropdown-item" href="#">Chinese</a>
+              <a class="dropdown-item" href="#">Italian</a>
+              <a class="dropdown-item" href="#"> French</a>
+              <a class="dropdown-item" href="#">Portugese</a>
+              <a class="dropdown-item" href="#">Hindi</a>
+             </div>
+         </div>
+         </li>
+           
+           <li>
+         <div class="dropdown">
+             <button type="button"  data-toggle="dropdown" style="background-color: darkslategrey;margin-top: 70px;"> <a href="" style="color: antiquewhite;">CURRENCY</a> </button>
+              <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">US Dollars $</a>
+              <a class="dropdown-item" href="#"> Australian Dollars $</a>
+              <a class="dropdown-item" href="#">Euros E</a>
+              <a class="dropdown-item" href="#">Japanese Yen Y</a>
+              <a class="dropdown-item" href="#">Canadian Dollars $</a>
+              <a class="dropdown-item" href="#">British Pounds P</a>
+              <a class="dropdown-item" href="#"> French</a>
+              <a class="dropdown-item" href="#">Portugese</a>
+              <a class="dropdown-item" href="#">Hindi</a>
+             </div>
+         </div>
+         </li>
+            </ul>
+        </li>
+         
+         
+     </ul>
+     <!--LIST1 ENDS-->
+     
+     
+     <p style="background-color: darkslategray;color: antiquewhite;padding-left: 100px;font-size: 12px;height: 100px;">Copyright @Zoom Video Communications,Inc.All Rights Reserved.Privacy & Legal Policies|About Ads|Do Not Sell My Personal Information|Cookie Preferences</p>
+    
+      
+  </footer>
+  <!--FOOTER ENDS-->
+   
+</body>
+</html>
